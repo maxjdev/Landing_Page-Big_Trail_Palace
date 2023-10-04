@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container container-flex">
             <h1>Big Trail Palace</h1>
             <div class="menu-hamburguer">
                 <span></span>
@@ -47,6 +47,21 @@
         <img src="./images/slide3.png" alt="Carro da Ford">
     </div>
 
+    <section id="sobre-a-loja">
+        <div class="container container-flex">
+            <img src="./images/loja.jpg" alt="Loja Big Trail Palace">
+            <div>
+                <h2>Sobre a Big Trail Palace</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maxime delectus aspernatur, reprehenderit esse quisquam rerum itaque excepturi minus sit veniam non fuga quaerat error? Officiis saepe tempora temporibus libero.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maxime delectus aspernatur, reprehenderit esse quisquam rerum itaque excepturi minus sit veniam non fuga quaerat error? Officiis saepe tempora temporibus libero.
+                </p>
+            </div>
+        </div>
+    </section>
+
     <!-- jQuery + JS -->
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -58,6 +73,9 @@
             $(`#carousel-images`).slick({
                 autoplay: true,
             });
+            $(`.menu-hamburguer`).click(function() {
+                $(`nav`).slideToggle();
+            })
         })
     </script>
 </body>
