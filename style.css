@@ -93,7 +93,11 @@ section h2 {
     cursor: pointer;
     border-radius: 6px;
 }
-.lista-veiculos li strong {
+.price {
     margin: 16px;
     display: block;
+}
+.price del {
+    color: #ccc;
+    font-size: 14px;
 }
