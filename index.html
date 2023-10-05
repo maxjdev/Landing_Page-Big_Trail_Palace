@@ -199,23 +199,23 @@
             <form>
                 <div class="form-campo">
                     <label for="nome">Nome: </label>
-                    <input type="text" id="nome">
+                    <input type="text" name="nome" id="nome">
                 </div>
                 <div class="form-campo">
                     <label for="telefone">Telefone: </label>
-                    <input type="tel" id="telefone">
+                    <input type="tel" name="telefone" id="telefone">
                 </div>
                 <div class="form-campo">
                     <label for="email">E-mail: </label>
-                    <input type="email" id="email">
+                    <input type="email" name="email" id="email">
                 </div>
                 <div class="form-campo">
-                    <label for="veiculo-interesse">Veículo de interesse: </label>
-                    <input type="text" id="veiculo-interesse">
+                    <label for="veiculoDeInteresse">Veículo de interesse: </label>
+                    <input type="text" name="veiculoDeInteresse" id="veiculoDeInteresse">
                 </div>
                 <div class="form-campo">
                     <label for="mensagem">Mensagem: </label>
-                    <textarea id="mensagem" cols="30" rows="10"></textarea>
+                    <textarea id="mensagem" name="mensagem" cols="30" rows="10"></textarea>
                 </div>
                 <button type="submit">Enviar</button>
             </form>
@@ -252,14 +252,54 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./jquery-plugins/jquery.mask.min.js"></script>
+    <script src="./jquery-plugins/jquery.validate.min.js"></script>
+    <script src="./jquery-plugins/messages_pt_BR.min.js"></script>
 
     <script>
         $(document).ready(function() {
+            
             $(`#carousel-images`).slick({
                 autoplay: true,
             });
             $(`.menu-hamburguer`).click(function() {
                 $(`nav`).slideToggle();
+            });
+            $(`#telefone`).mask(`(00) 00000-0000`, {
+                placeholder: `(00) 00000-0000`
+            });
+            $(`form`).validate({
+                rules: {
+                    nome: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    telefone: {
+                        required: true
+                    },
+                    veiculoDeInteresse: {
+                        required:false
+                    },
+                    mensagem: {
+                        required: true
+                    }
+                },
+                messages: {
+                    nome: `Por favor insira seu nome`,
+                    telefone: `Por favor digite seu telefone / celular`
+                },
+                SubmitHandler: function(form) {
+                    console.log(log)
+                },
+                invalidHandler: function(evento, validador) {
+                    let camposIncorretos = validador.numberOfInvalids();
+                    if (camposIncorretos) {
+                        alert(`Existem ${camposIncorretos} campos incorretos`)
+                    }
+                }
             })
         })
     </script>
