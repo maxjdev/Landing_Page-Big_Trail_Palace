@@ -1,48 +1,47 @@
 <div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="90px">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="90px">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="90px">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" width="90px"><br><br>
+  <h1>Landing Page: Big Trail Palace <a href="https://ebac-proj-big-trail-palace.vercel.app/"> Deploy</a></h1>
+</div>
 
-  # EBAC Desenvolvedor FullStack Java - Front-End
-  <img src="https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png" width="150">
+## Description
 
-  ## Projeto: Loja de Motos
-  Visite a [Loja de Motos](https://ebac-proj-big-trail-palace.vercel.app/)
+This project is part of the EBAC FullStack Java Developer course, in the Front-End module. Big Trail Palace is a web application developed using jQuery and several plugins to improve the user experience. The objective is to create a user-friendly interface to simulate an online motorcycle store.
+
+<div align="center">
   
+  ## Image 
   <img src="https://i.postimg.cc/PJCRFDWK/screencapture-ebac-proj-big-trail-palace-vercel-app-2023-11-22-16-51-59.png">
 </div>
 
-## Descrição do Projeto
+## Resources Used
 
-Este projeto faz parte do curso Desenvolvedor FullStack Java da EBAC, no módulo de Front-End. A Big Trail Palace é uma aplicação web desenvolvida utilizando jQuery e diversos plugins para aprimorar a experiência do usuário. O objetivo é criar uma interface amigável para simular uma loja online de motos.
-
-## Recursos Utilizados
-
-- **jQuery:** Biblioteca JavaScript que simplifica a manipulação do DOM e interações com o usuário.
+- **jQuery:** JavaScript library that simplifies DOM manipulation and user interactions.
 
 - **Plugins:**
-  - **Carousel:** Utilizado para criar um carrossel de imagens na página inicial, exibindo modelos de motos.
-  - **Mask:** Aplicado para formatar campos de entrada, como números de telefone e E-mail.
-  - **Validations:** Implementado para validar formulários, garantindo dados corretos antes do envio.
+  - **Carousel:** Used to create an image carousel on the home page, displaying motorcycle models.
+  - **Mask:** Applied to format input fields such as phone numbers and Email.
+  - **Validations:** Implemented to validate forms, ensuring correct data before submission.
 
-## Como Utilizar
+## Contributing
 
-1. **Acesse o site:**
-   - Visite [Loja de Motos](https://ebac-proj-big-trail-palace.vercel.app/)
+We welcome and appreciate your contributions to this project! Whether you have suggestions, bug fixes, or new features you'd like to add, please feel free to fork this repository.
 
-2. **Explore a Loja:**
-   - Navegue pelas seções da loja para descobrir as motocicletas disponíveis.
+### How to Contribute
 
-3. **Destaque na Página Inicial:**
-   - Observe o carrossel na página inicial, apresentando os destaques e promoções.
+1. Fork the project.
+2. Create a branch for your contribution: `git checkout -b my-contribution`.
+3. Make your changes and commit: `git commit -m 'Add my contribution'`.
+4. Push to your branch: `git push origin my-contribution`.
+5. Open a pull request for review.
 
-4. **Formulários:**
-   - Experimente os formulários de contato e de compra, onde as máscaras e validações estão em ação.
+## Feedback and Issues
 
-5. **Experimente os Plugins:**
-   - Sinta-se à vontade para interagir com os diferentes plugins utilizados na aplicação.
+If you have contributions, suggestions, or feedback, feel free to open an issue.
 
-## Feedback e Contribuições
-
-Se tiver alguma sugestão, feedback ou encontrar problemas, ficaremos felizes em receber suas contribuições. Entre em contato através das issues do projeto.
-
-<h2 align="center">
-  <i>Agradeço por explorar a Loja de Motos desenvolvida como parte do curso Desenvolvedor FullStack Java na EBAC!</i>
-</h2>
+<div align="center">
+  <h2>Full Stack Developer Java: Front-End</h2>
+  <img src="https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png" width="100px">
+</div>
