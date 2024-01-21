@@ -1,20 +1,19 @@
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="90px">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="90px">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="90px">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" width="90px"><br><br>
   <h1>Landing Page: Big Trail Palace <a href="https://ebac-proj-big-trail-palace.vercel.app/"> Deploy</a></h1>
+
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+
+  ## Image 
+  <img src="https://i.postimg.cc/PJCRFDWK/screencapture-ebac-proj-big-trail-palace-vercel-app-2023-11-22-16-51-59.png">
+  
 </div>
 
 ## Description
 
 This project is part of the EBAC FullStack Java Developer course, in the Front-End module. Big Trail Palace is a web application developed using jQuery and several plugins to improve the user experience. The objective is to create a user-friendly interface to simulate an online motorcycle store.
-
-<div align="center">
-  
-  ## Image 
-  <img src="https://i.postimg.cc/PJCRFDWK/screencapture-ebac-proj-big-trail-palace-vercel-app-2023-11-22-16-51-59.png">
-</div>
 
 ## Resources Used
 
@@ -40,8 +39,3 @@ We welcome and appreciate your contributions to this project! Whether you have s
 ## Feedback and Issues
 
 If you have contributions, suggestions, or feedback, feel free to open an issue.
-
-<div align="center">
-  <h2>Full Stack Developer Java: Front-End</h2>
-  <img src="https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png" width="100px">
-</div>
